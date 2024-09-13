@@ -14,6 +14,8 @@
 		352D78722C94231200C6D1A3 /* MeteoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D78712C94231200C6D1A3 /* MeteoTests.swift */; };
 		352D787C2C94231200C6D1A3 /* MeteoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D787B2C94231200C6D1A3 /* MeteoUITests.swift */; };
 		352D787E2C94231200C6D1A3 /* MeteoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D787D2C94231200C6D1A3 /* MeteoUITestsLaunchTests.swift */; };
+		353B66CF2C94855A0085238D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353B66CE2C94855A0085238D /* API.swift */; };
+		353B66D12C9486700085238D /* API+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353B66D02C9486700085238D /* API+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		352D78772C94231200C6D1A3 /* MeteoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		352D787B2C94231200C6D1A3 /* MeteoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoUITests.swift; sourceTree = "<group>"; };
 		352D787D2C94231200C6D1A3 /* MeteoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		353B66CE2C94855A0085238D /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		353B66D02C9486700085238D /* API+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,11 @@
 		352D785F2C94230F00C6D1A3 /* Meteo */ = {
 			isa = PBXGroup;
 			children = (
+				353B66CD2C9484CF0085238D /* LottieAnimations */,
+				353B66CC2C9484360085238D /* ViewModels */,
+				353B66CB2C94842C0085238D /* Views */,
+				353B66CA2C9484260085238D /* Models */,
+				353B66C92C9483DB0085238D /* Networking */,
 				352D78602C94230F00C6D1A3 /* MeteoApp.swift */,
 				352D78622C94230F00C6D1A3 /* ContentView.swift */,
 				352D78642C94231200C6D1A3 /* Assets.xcassets */,
@@ -125,6 +134,43 @@
 				352D787D2C94231200C6D1A3 /* MeteoUITestsLaunchTests.swift */,
 			);
 			path = MeteoUITests;
+			sourceTree = "<group>";
+		};
+		353B66C92C9483DB0085238D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				353B66CE2C94855A0085238D /* API.swift */,
+				353B66D02C9486700085238D /* API+Extensions.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		353B66CA2C9484260085238D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		353B66CB2C94842C0085238D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		353B66CC2C9484360085238D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		353B66CD2C9484CF0085238D /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353B66D12C9486700085238D /* API+Extensions.swift in Sources */,
 				352D78632C94230F00C6D1A3 /* ContentView.swift in Sources */,
+				353B66CF2C94855A0085238D /* API.swift in Sources */,
 				352D78612C94230F00C6D1A3 /* MeteoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
