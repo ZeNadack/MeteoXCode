@@ -14,7 +14,6 @@
 		352D78722C94231200C6D1A3 /* MeteoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D78712C94231200C6D1A3 /* MeteoTests.swift */; };
 		352D787C2C94231200C6D1A3 /* MeteoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D787B2C94231200C6D1A3 /* MeteoUITests.swift */; };
 		352D787E2C94231200C6D1A3 /* MeteoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D787D2C94231200C6D1A3 /* MeteoUITestsLaunchTests.swift */; };
-		352D788B2C9431DE00C6D1A3 /* LocalisationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D788A2C9431DE00C6D1A3 /* LocalisationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		352D78772C94231200C6D1A3 /* MeteoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		352D787B2C94231200C6D1A3 /* MeteoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoUITests.swift; sourceTree = "<group>"; };
 		352D787D2C94231200C6D1A3 /* MeteoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		352D788A2C9431DE00C6D1A3 /* LocalisationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalisationController.swift; path = Controller/LocalisationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,6 @@
 				352D78622C94230F00C6D1A3 /* ContentView.swift */,
 				352D78642C94231200C6D1A3 /* Assets.xcassets */,
 				352D78662C94231200C6D1A3 /* Preview Content */,
-				352D788A2C9431DE00C6D1A3 /* LocalisationController.swift */,
 			);
 			path = Meteo;
 			sourceTree = "<group>";
@@ -260,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				352D788B2C9431DE00C6D1A3 /* LocalisationController.swift in Sources */,
 				352D78632C94230F00C6D1A3 /* ContentView.swift in Sources */,
 				352D78612C94230F00C6D1A3 /* MeteoApp.swift in Sources */,
 			);

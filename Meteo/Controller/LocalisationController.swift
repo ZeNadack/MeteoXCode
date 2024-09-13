@@ -8,4 +8,4 @@
 import Foundation
 import CoreLocation
 
-class LocalisationController: NSObject, ObservableObject, CLLocationManagerDelegate 
+class LocalisationController: NSObject, ObservableObject, CLLocationManagerDelegate {
