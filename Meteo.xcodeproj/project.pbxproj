@@ -16,6 +16,7 @@
 		352D787E2C94231200C6D1A3 /* MeteoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D787D2C94231200C6D1A3 /* MeteoUITestsLaunchTests.swift */; };
 		353B66CF2C94855A0085238D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353B66CE2C94855A0085238D /* API.swift */; };
 		353B66D12C9486700085238D /* API+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353B66D02C9486700085238D /* API+Extensions.swift */; };
+		353B66D32C94901A0085238D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353B66D22C94901A0085238D /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		352D787D2C94231200C6D1A3 /* MeteoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		353B66CE2C94855A0085238D /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		353B66D02C9486700085238D /* API+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extensions.swift"; sourceTree = "<group>"; };
+		353B66D22C94901A0085238D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			children = (
 				353B66CE2C94855A0085238D /* API.swift */,
 				353B66D02C9486700085238D /* API+Extensions.swift */,
+				353B66D22C94901A0085238D /* NetworkManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			files = (
 				353B66D12C9486700085238D /* API+Extensions.swift in Sources */,
 				352D78632C94230F00C6D1A3 /* ContentView.swift in Sources */,
+				353B66D32C94901A0085238D /* NetworkManager.swift in Sources */,
 				353B66CF2C94855A0085238D /* API.swift in Sources */,
 				352D78612C94230F00C6D1A3 /* MeteoApp.swift in Sources */,
 			);
