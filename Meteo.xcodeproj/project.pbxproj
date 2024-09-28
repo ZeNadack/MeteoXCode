@@ -116,8 +116,6 @@
 		352D785F2C94230F00C6D1A3 /* Meteo */ = {
 			isa = PBXGroup;
 			children = (
-				353B66CD2C9484CF0085238D /* LottieAnimations */,
-				353B66CC2C9484360085238D /* ViewModels */,
 				353B66CB2C94842C0085238D /* Views */,
 				353B66CA2C9484260085238D /* Models */,
 				353B66C92C9483DB0085238D /* Networking */,
@@ -184,20 +182,6 @@
 				35407B332CA7E53900A02AF8 /* CityView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		353B66CC2C9484360085238D /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		353B66CD2C9484CF0085238D /* LottieAnimations */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
