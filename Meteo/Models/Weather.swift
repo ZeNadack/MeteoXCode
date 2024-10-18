@@ -26,7 +26,7 @@ struct Weather: Codable, Identifiable {
         case pressure
         case humidity
         case dew_point
-        case coulds
+        case clouds
         case wind_speed
         case wind_deg
         case weather
@@ -51,3 +51,5 @@ extension Weather {
         return UUID()
     }
 }
+
+ 

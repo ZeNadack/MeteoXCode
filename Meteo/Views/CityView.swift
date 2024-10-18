@@ -5,7 +5,7 @@
 //  Created by Theo Blanchard on 9/28/24.
 //
 
-import Foundation
+import SwiftUI
 
 struct CityView: View {
     
