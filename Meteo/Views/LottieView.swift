@@ -38,3 +38,4 @@ struct LottieView: UIViewRepresentable {
     
     }
 }
+

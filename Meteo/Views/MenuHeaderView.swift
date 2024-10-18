@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MenuHeaderView: View {
     
-    @ObservedObject var cityM: CityViewViewModel
+    @ObservedObject var cityVM: CityViewViewModel
     
     @State private var searchTerm = "San Francisco"
     

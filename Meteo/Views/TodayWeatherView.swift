@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Lottie
 
 struct TodayWeatherView: View {
     @ObservedObject var cityVM: CityViewViewModel
